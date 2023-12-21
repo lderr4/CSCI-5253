@@ -23,25 +23,24 @@ Anyone who is an avid skier knows that weather can significantly impact the expe
    ```bash
    git checkout -b Final-Project
    ```
-   
-3.  Create a virtual environment:
+3. Create a virtual environment:
    ```bash
-    python3 -m venv venv
+   python3 -m venv venv
    ```
 4. Active the virtual environment:
    ```bash
-    source venv/bin/activate
-   ```
-5. Install the dependencies
+   source venv/bin/activate```
+6. Install the dependencies
    ```bash
     pip install -r requirements.txt
    ```
-6. Update the config.conf file with the correct API and AWS credentials
-7. Start the containers
+7. Update the config.conf file with the correct API and AWS credentials
+   
+8. Start the containers
    ```bash
    docker-compose up -d --build
    ```
-8. Launch Airflow UI at [http://localhost:8080](http://localhost:8080)
+9. Launch Airflow UI at [http://localhost:8080](http://localhost:8080)
  
 
 
