@@ -1,4 +1,4 @@
-# CSCI-5253 Final Project
+# Ski Resort Weather Fetcher
 Name: Lucas Derr
 
 [Link to Project Video](https://drive.google.com/file/d/1d93wRllrgpDjzEg8gxZwnZswr0hNWCZd/view?usp=sharing)
