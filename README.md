@@ -1,6 +1,8 @@
 # CSCI-5253 Final Project
 Name: Lucas Derr
 
+[Link to Project Video](https://drive.google.com/file/d/1d93wRllrgpDjzEg8gxZwnZswr0hNWCZd/view?usp=sharing)
+
 ### Project Overview
 Anyone who is an avid skier knows that weather can significantly impact the experience of a day out on the slopes. Knowing the type of weather on the mountain can affect which mountain a skier decides to go to, and sometimes whether to go skiing at all. In this end-to-end data engineering project, daily weather data is pulled from [openweathermap's API](https://openweathermap.org/api) and uploaded to an AWS S3 Bucket using Airflow for orchestration. Once in AWS, it is processed by AWS Glue Crawlers and uploaded in 3rd Normal Form to Redshift. Once in Redshift, the data can be analyzed to determine which ski mountain will have the best weather!
 
